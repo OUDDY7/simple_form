@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework</title>
     <link rel="stylesheet" href="hw1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <body bgcolor="pink"></body>
@@ -13,19 +14,17 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAiCepFca2MgyRI-_TNyy9YPXxakXDX576Q&usqp=CAU">
 
     <h2><b><i>USER INFORMATION</i></b></h2>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
-    <label for="register date time">Register Date Time:</label>
-    <input type="datetime-local" id="register date time">
+    <form action="https://formsubmit.co/chanlay186@gmail.com" method="POST">
+        <label for="register date time">Register Date Time:</label>
+    <input type="datetime-local" id="register date time" name="datetime-local">
     </br>
     </br>
     <label for="username">USERNAME:</label>
-    <input type="text" id="username">
+    <input type="text" id="username" placeholder="username" name="USERNAME">
     </br>
     </br>
     <label for="password">PASSWORD:</label>
-    <input type="password" id="password">
+    <input type="password" id="password" name="password">
     </br>
     </br>
     <label for="Age">AGE:</label>
@@ -63,22 +62,24 @@
 </br>
 
     <label for="text-input">HOBBY:</label>
-    <input type="text" id="text-input" name="text-input">
+    <input type="text" id="text-input" name="hobby">
 </br>
 </br>
     <label for="file">Upload your profile</label>
-    <input type="file">
+    <input type="file" name="file">
 
 </br>
 </br>
 
 <label for="text">ADDRESS</label>
-      <input type="text" name="" id="text">
+      <input type="text" name="address" id="text">
 
       <label for="file"></label>
-    <input type="file">
-
-    <img src="" alt="">
+    <input type="file" name="file">
+    
+    <button type="submit">Submit</button>
+    </form>
+  
 
 </body>
 </html>
